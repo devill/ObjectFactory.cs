@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net462;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <PackageId>ObjectFactory.Fody</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>SpecRec</Authors>
+    <Description>Fody weaver that automatically replaces 'new' keyword instantiations with ObjectFactory.Create calls at compile time.</Description>
+    <PackageTags>fody;weaving;dependency-injection;factory;legacy;testing</PackageTags>
+    <DevelopmentDependency>true</DevelopmentDependency>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fody" Version="6.9.3" PrivateAssets="None" />
+    <PackageReference Include="FodyPackaging" Version="6.9.3" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ObjectFactory.Fody.Fody\ObjectFactory.Fody.Fody.csproj" />
+  </ItemGroup>
+
+</Project>
