@@ -2,6 +2,12 @@
 
 Lightweight dependency injection for legacy code. Replace `new` with testable factories without major refactoring.
 
+## Video Introduction
+
+[<img src="https://img.youtube.com/vi/inHNZ6tY-3A/maxresdefault.jpg" width="400" alt="Making Legacy Code Testable with ObjectFactory">](https://www.youtube.com/watch?v=inHNZ6tY-3A)
+
+**[Watch: Making Legacy Code Testable with ObjectFactory](https://www.youtube.com/watch?v=inHNZ6tY-3A)** - Learn the problem ObjectFactory solves and see a simple example in action.
+
 ## Why ObjectFactory?
 
 Legacy code often has hard-coded dependencies that make testing impossible:
